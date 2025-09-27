@@ -35,3 +35,4 @@ uv run main.py
 
 ```
 
+For the model tuning just use the dataset from processed_dataset folder with the https://github.com/FlyMyAI/flymyai-lora-trainer.git repository it is very straight forward usage.
