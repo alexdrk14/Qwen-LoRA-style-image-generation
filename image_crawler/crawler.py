@@ -13,6 +13,7 @@ from pathlib import Path
 import logging
 
 import os
+
 ROOT_DIR = os.path.dirname('/'.join(os.path.abspath(__file__).split('/')[:-1]))
 
 
