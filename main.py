@@ -1,4 +1,4 @@
-from image_crawler import download_images, generate_labels
+from image_crawler import download_images, make_caption_labels
 
 
 def main():
@@ -6,7 +6,7 @@ def main():
     print('Lets start with downloading images from Simon Stalenhag website...')
     download_images()
     print('Start labeling images using Ollama...')
-    generate_labels()
+    make_caption_labels()
     print('All done! Check out images/ folder for results.')
 
     print('Now follow readme to fine-tune Qwen-VL model!')
